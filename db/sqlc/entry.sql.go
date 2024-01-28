@@ -52,6 +52,7 @@ func (q *Queries) GetEntry(ctx context.Context, id int64) (Entry, error) {
 	return i, err
 }
 
+//Lista entradas
 const listEntries = `-- name: ListEntries :many
 SELECT id, account_id, amount, created_at FROM entries
 WHERE account_id = $1

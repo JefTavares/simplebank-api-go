@@ -200,6 +200,7 @@ Também posso utilizar algumas configurações extras
 > [DocRef - pgx](https://docs.sqlc.dev/en/stable/guides/using-go-and-pgx.html)
 
 3. Executar o comando `sqlc generate`
+
    vai gerar a saida:
 
 ![saida](/img/sqlc%20out.png)
