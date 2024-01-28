@@ -58,4 +58,4 @@ func (server *Server) getAccount(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, account)
 }
 
-parei em 18 min
+//parei em 18 min
