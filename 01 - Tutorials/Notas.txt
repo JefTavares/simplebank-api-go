@@ -1,1 +1,9 @@
 https://dbdiagram.io/d/go-simples-bank-656645c13be1495787eae7c9
+
+neste projeto por usar o make caso o container do postgres não esteja rodando apos ser criado
+dar um docker start 'nome do container" que vai 
+
+
+make server rodar a api pegadando as config do arquivo app.env
+mudando as variavies 
+SERVER_ADDRESS=0.0.0.0:8081 make server

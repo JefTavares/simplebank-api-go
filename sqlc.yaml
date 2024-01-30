@@ -11,3 +11,4 @@ sql:
           - db_type: bigint
             go_type: int64
         emit_json_tags: true 
+        emit_empty_slices: true
